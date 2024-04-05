@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(135, 197, 222);
+}
+
+.possible{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.possible div{
+    margin: 7px;
+}
+
+.true div{
+    background-color: orangered;
+    width: 440px;
+    height: 400px;
+    margin: 7px;
+}
+
+.fine div{
+    background-color: green;
+    width: 440px;
+    height: 400px;
+    margin: 7px;
+}
+
+.true{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.fine{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: rgb(197, 20, 94);
+    }
+    .true div{
+        background-color: crimson;
+        width: 140px;
+        height: 100px;
+        margin: 7px;
+    }
+    
+    .fine div{
+        background-color: rgb(72, 12, 214);
+        width: 140px;
+        height: 100px;
+        margin: 7px;
+    }
+    
+    .true{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+    
+    .fine{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }   
+}
